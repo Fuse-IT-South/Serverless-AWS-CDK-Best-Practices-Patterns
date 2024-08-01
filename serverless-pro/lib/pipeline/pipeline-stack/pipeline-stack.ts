@@ -27,7 +27,7 @@ export class PipelineStack extends cdk.Stack {
           //   'leegilmorecode/Serverless-AWS-CDK-Best-Practices-Patterns',
           //   'main'
           // ),
-          input: pipelines.CodePipelineSource.connection('Fuse-IT-South/whatsapp-tracking', 'dev', { connectionArn: 'arn:aws:codeconnections:eu-west-1:590184085727:connection/65cad748-79f5-491f-bea4-cf4cce86745c' }),
+          input: pipelines.CodePipelineSource.connection('Fuse-IT-South/Serverless-AWS-CDK-Best-Practices-Patterns', 'main', { connectionArn: 'arn:aws:codeconnections:eu-west-1:590184085727:connection/65cad748-79f5-491f-bea4-cf4cce86745c' }),
           primaryOutputDirectory: './serverless-pro/cdk.out', // these are our immutable build assets
           // source stage
           commands: [
