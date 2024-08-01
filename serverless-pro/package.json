@@ -9,11 +9,11 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "deploy:pipeline": "cdk deploy ServerlessPro --profile=featuredev",
-    "remove:pipeline": "cdk destroy ServerlessPro --profile=featuredev",
-    "deploy:dev": "cdk deploy ServerlessPro/Develop-PR-123/StatefulStack ServerlessPro/Develop-PR-123/StatelessStack --profile=featuredev",
-    "preremove:dev": "cdk synth --profile=featuredev",
-    "remove:dev": "cdk destroy ServerlessPro/Develop-PR-123/StatefulStack ServerlessPro/Develop-PR-123/StatelessStack --profile=featuredev"
+    "deploy:pipeline": "cdk deploy ServerlessPro --profile=whatsapptracking-cdk",
+    "remove:pipeline": "cdk destroy ServerlessPro --profile=whatsapptracking-cdk",
+    "deploy:dev": "cdk deploy ServerlessPro/Develop-PR-123/StatefulStack ServerlessPro/Develop-PR-123/StatelessStack --profile=whatsapptracking-cdk",
+    "preremove:dev": "cdk synth --profile=whatsapptracking-cdk",
+    "remove:dev": "cdk destroy ServerlessPro/Develop-PR-123/StatefulStack ServerlessPro/Develop-PR-123/StatelessStack --profile=whatsapptracking-cdk"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.110",
